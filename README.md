@@ -1,6 +1,6 @@
 # Blogs-Ayush
 
-Its a simple Blogging Website without any authentication or authorization 
+Its a simple articles Website with a local database and without any authentication or authorization 
 
 
 # To start the project 
