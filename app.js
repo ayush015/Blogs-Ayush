@@ -30,7 +30,7 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 // connecting mongoose-mongodb with the app
-mongoose.connect("mongodb+srv://ayush-blogs:sunshine123@ayush-blogscluster-imtd7.mongodb.net/blogsDB", {
+mongoose.connect("mongodb://localhost:27017/blogDB", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useFindAndModify: false
